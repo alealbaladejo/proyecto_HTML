@@ -1,5 +1,5 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html >
+<html lang="en" >
 <head>
 <title>Contacto</title>
 <meta charset="utf-8">
@@ -29,9 +29,9 @@ jQuery(document).ready(function() {
 <link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
 <![endif]-->
 </head>
-<body>
+<body  >
 <div class="main">
-  <header>
+  <header id="headform">
     <h1><a href="index.html"><img src="images/f1.jpg" alt="" width="200"></a></h1>
   </header>
   <!--==============================content================================-->
@@ -41,7 +41,7 @@ jQuery(document).ready(function() {
         <ul class="menu">
           <li><a href="index.html">home</a></li>
           <li><a href="about.html">about us</a></li>
-          <li><a href="services.html">services</a></li>
+          <li><a href="services.html">Circuitos</a></li>
           <li><a href="escuderia.html">Escuderias</a></li>
           <li class="current"><a href="formulario.html">contacto</a></li>
         </ul>
@@ -63,37 +63,38 @@ jQuery(document).ready(function() {
     </div>
     <div class="container_24 top-3">
       <div class="grid_7">
-        <h2 class="h2-4">Contact info:</h2>
+        <h2 class="h2-4">Estamos en:</h2>
         <div class="map img-border">
+          <<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2984.993235197416!2d2.2529318899213364!3d41.56939101063709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4b8ecc053a0f1%3A0x150ed08bef7e2b48!2sCircuito%20de%20Barcelona%20-%20Catalunya!5e0!3m2!1ses!2ses!4v1710228143632!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <dl class="adr">
-          <dt>Action</dt>
-          <dd class="upper">8901 Marmora Road, Glasgow, D04 89GR</dd>
-          <dd><span class="upper">Teléfono:</span><strong>+1 959 603 6035</strong></dd>
-          <dd><span class="upper">Fax:</span><strong>+1 504 889 9898</strong></dd>
-          <dd><span class="upper">Email:</span><a href="#" class="link">mail@demolink.org</a></dd>
+          <dt>Barcelona</dt>
+          <dd class="upper">Ctra. Granollers, km. 2, 08160 Parets del Vallès, Barcelona</dd>
+          <dd><span class="upper">Teléfono:</span><strong>+34 935 71 97 00</strong></dd>
+          <dd><span class="upper">Email:</span><a href="#" class="link">circuitodebarcelona@gmail.es</a></dd>
         </dl>
       </div>
       <div class="grid_16 prefix_1">
         <h2 class="h2-4">Formulario de contacto:</h2>
-        <form action="#" id="form" method="post" >
+        <form action="http://172.22.200.240/resultado.php" id="form" method="post" >
+          
           <fieldset>
             <label><strong>Nombre:</strong>
-                <input type="text" value="">
+                <input type="text" name="nombre" value="" >
             </label>
             <label><strong>Apellidos:</strong>
-                <input type="text" value="">
+                <input type="text" name="apellidos" value="">
             </label>
         
             <label>
               <strong>Genero:</strong>
-              <input type="radio" name="genero" id="hombre"> <span>Hombre</span>
-              <input type="radio" name="genero" id="mujer"> <span>Mujer</span>
-              <input type="radio" name="genero" id="nada"> <span>Prefiero no decirlo</span>
+              <input type="radio" name="hombre" id="hombre"> <span>Hombre</span>
+              <input type="radio" name="mujer" id="mujer"> <span>Mujer</span>
+              <input type="radio" name="prefiero no decirlo" id="nada"> <span>Prefiero no decirlo</span>
             </label>
 
             <label><strong>Email:</strong>
-                <input type="text" value="">
+                <input type="text" name="email" value="">
             </label>
             <label><div>
             <select name="circuito" id="circuito">
@@ -135,11 +136,11 @@ jQuery(document).ready(function() {
           </label>
 
 
-            <label><input type="checkbox" name="info" id="info">Selecciona para poder contactar contigo a través de correo</label>
-            <label><input type="checkbox" name="info" id="info">Selecciona para poder contactar contigo a través de teléfono</label>
+            <label><input type="checkbox" name="contactoxemail" id="info">Selecciona para poder contactar contigo a través de correo</label>
+            <label><input type="checkbox" name="contactoxtlf" id="info">Selecciona para poder contactar contigo a través de teléfono</label>
 
-            <div class="btns"><a href="#" class="link-1">clear</a><a href="#" class="link-1">send</a></div>
-        </fieldset>
+            <div class="btns"><input type="submit" value="Enviar"></div>
+          </fieldset>
         
         </form>
       </div>
