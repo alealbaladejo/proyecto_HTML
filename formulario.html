@@ -54,9 +54,9 @@ jQuery(document).ready(function() {
           <div>
             <div class="banner">Tienes que estar registrado</div>
           </div>
-          <div>
-            <div class="banner">Te avisaremos con antelación suficiente</div>
-          </div>
+
+          
+          
         </div>
         <div id="nav"></div>
       </div>
@@ -71,7 +71,7 @@ jQuery(document).ready(function() {
           <dt>Barcelona</dt>
           <dd class="upper">Ctra. Granollers, km. 2, 08160 Parets del Vallès, Barcelona</dd>
           <dd><span class="upper">Teléfono:</span><strong>+34 935 71 97 00</strong></dd>
-          <dd><span class="upper">Email:</span><a href="#" class="link">circuitodebarcelona@gmail.es</a></dd>
+          <dd><span class="upper" ">Email:</span><a href="#" id="email class="link">circuitodebarcelona@gmail.es</a></dd>
         </dl>
       </div>
       <div class="grid_16 prefix_1">
@@ -80,7 +80,7 @@ jQuery(document).ready(function() {
           
           <fieldset>
             <label><strong>Nombre:</strong>
-                <input type="text" name="nombre" value="" >
+                <input type="text" id="texto" name="nombre" value="" >
             </label>
             <label><strong>Apellidos:</strong>
                 <input type="text" name="apellidos" value="">
@@ -93,8 +93,12 @@ jQuery(document).ready(function() {
               <input type="radio" name="prefiero no decirlo" id="nada"> <span>Prefiero no decirlo</span>
             </label>
 
-            <label><strong>Email:</strong>
-                <input type="text" name="email" value="">
+            <div><label><strong>Email:</strong>
+                <input type="email" name="email" value="">
+            </label></div>
+            <label><strong>Contraseña: </strong>
+              <input type="password" name="Contraseña">
+              
             </label>
             <label><div>
             <select name="circuito" id="circuito">
@@ -134,8 +138,6 @@ jQuery(document).ready(function() {
             </select>
           </div>
           </label>
-
-
             <label><input type="checkbox" name="contactoxemail" id="info">Selecciona para poder contactar contigo a través de correo</label>
             <label><input type="checkbox" name="contactoxtlf" id="info">Selecciona para poder contactar contigo a través de teléfono</label>
 
