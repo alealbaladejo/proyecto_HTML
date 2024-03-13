@@ -55,7 +55,7 @@ a:hover {
 	text-decoration:none;
 }
 .link-1 {
-	color:#85a09d;
+	color:orangered;
 	text-transform:uppercase;
 	text-decoration:underline;
 	font-size:11px;
@@ -245,6 +245,7 @@ ul.list-1 li a:hover {
 }
 .p4 {
 	padding-bottom:7px;
+	color: black;
 }
 /*********************************header*************************************/
 header {
@@ -546,7 +547,7 @@ dl.adr dd span {
 }
 
 #headform {
-	background: rgba(0, 0, 0, 0); /* Fondo transparente */
+	background: rgba(0, 0, 0, 0); 
 }
 
 #asia {
