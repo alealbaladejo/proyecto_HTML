@@ -2,5 +2,5 @@
 	overflow:auto;
 }
 .cycle .banner {
-	background:url(../images/header-bg.jpg) 0 -54px no-repeat;
+	background-color: rgb(0, 0, 0);
 }
