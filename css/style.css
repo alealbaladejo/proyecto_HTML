@@ -14,18 +14,16 @@ body {
     min-width: 960px;
     margin: 0;
     padding: 0;
-    background: url(../images/fondo.jpg) 0 0 ; 
-    background-position: center top; 
-	background-repeat: repeat;
-	background-size: 100%;
+	background: linear-gradient(rgb(197, 189, 189), rgb(67, 67, 100))
 	
 }
 article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, header, hgroup, keygen, meter, nav, output, progress, section, source, video{
 	display: block;
-	background: radial-gradient(circle, #f5ca0b, #d97f0d, #7e1718);
-
-	
+	background: radial-gradient(circle, #ecd675, #fdb159, #7c3435);
 	}
+#comentario{
+	color:#000000
+}
 
 .gender-options label {
     display: block;
@@ -137,25 +135,55 @@ h3>span {
 	display:block;
 	margin-top:-2px;
 }
-ul {
-	margin:0;
-	padding:0;
-	list-style-image:none;
+
+
+ol.list-1 {
+    counter-reset: item;
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 40px;
+    color: #160101;
+	    align-items: flex-start; 
+		text-align: center;
+
 }
-ul.list-1 li {
-	padding:0px 0 6px 12px;
-	font-size:11px;
-	line-height:18px;
-	text-transform:uppercase;
-	background:url(../images/marker-1.gif) 0 7px no-repeat;
-	color:#0c0842;
+
+ol.list-1 li {
+    counter-increment: item;
+    margin-bottom: 10px;
+    display: flex; 
+    align-items: center;
 }
-ul.list-1 li a {
-	color:#0c0842;
+ol.list-2 {
+	line-height: 40px;
+	font-size: 18px;
+	color: rgb(0, 0, 0);
+	margin-right: 0%;
+	text-align: center;
 }
-ul.list-1 li a:hover {
-	text-decoration:underline;
+
+.piloto-img {
+    width: 40px; 
+	height: 30px;
+    margin-right: 10px; 
+	align-items: center; 
+
 }
+.bandera-img {
+
+		width:45px; 
+		height: 30px;
+		margin-right: 10px; 
+		align-items: center; 
+	
+	}
+#vueltarapida{
+	color:rgb(236, 101, 236)
+}
+#primero {
+	color: #b99117;
+}
+
 /******************************************************************/
 .clear {
 	clear:both;
@@ -206,7 +234,7 @@ ul.list-1 li a:hover {
 }
 .top-1 {
 	padding-top:25px;
-	background: radial-gradient(circle, #f9e8b0, #f2b688, #c26e67);
+	background: radial-gradient(circle, #726d58, #d6d6cc, #e0caca);
 
 
 
@@ -252,6 +280,7 @@ ul.list-1 li a:hover {
 }
 .p3 {
 	padding-bottom:9px;
+	text-align: center;
 }
 .p4 {
 	padding-bottom:7px;
@@ -326,12 +355,10 @@ ul.menu li a:hover, ul.menu li.current a {
 	top:0;
 	display:inline-block;
 	z-index:9999;
-	color: ;
 }
-.banner {
-	color: ;
-}
-/*********************************content*************************************/
+
+
+*********************************content*************************************/
 #content {
 	padding-bottom:24px;
 	width:960px;
@@ -695,4 +722,5 @@ table {
     height: 200px;
     transform: scaleX(-1);
 }
+
 
