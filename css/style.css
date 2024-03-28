@@ -14,12 +14,17 @@ body {
     min-width: 960px;
     margin: 0;
     padding: 0;
-	background: linear-gradient(rgb(197, 189, 189), rgb(67, 67, 100))
+	background: linear-gradient(to bottom right, rgba(48, 226, 20, 0.5), #09025480, rgba(249, 248, 248, 0.5)); 
 	
 }
-article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, header, hgroup, keygen, meter, nav, output, progress, section, source, video{
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, header, hgroup, keygen, meter, output, progress, section, source, video{
 	display: block;
-	background: radial-gradient(circle, #ecd675, #fdb159, #7c3435);
+	background:rgb(213, 213, 225) ;
+	color: #0044ff;
+	}
+
+li:hover {
+		background-color: #e46767; 
 	}
 #comentario{
 	color:#000000
@@ -87,7 +92,7 @@ a:hover {
 h2 {
 	font-size:36px;
 	line-height:45px;
-	color:#6a4c31;
+	color:#ef8527;
 	font-weight:normal;
 	font-family: 'Passion One', cursive;
 }
@@ -106,6 +111,8 @@ h2.h2-2 {
 	border-bottom:#d2d9d8 2px solid;
 	border-top:#d2d9d8 2px solid;
 	text-align:center;
+		padding-top:28px;
+
 }
 h2.h2-3 {
 	line-height:34px;
@@ -177,12 +184,16 @@ ol.list-2 {
 		align-items: center; 
 	
 	}
-#vueltarapida{
-	color:rgb(236, 101, 236)
-}
-#primero {
-	color: #b99117;
-}
+
+	.escudo-img {
+
+		width:60px; 
+		height: 40px;
+		margin-right: 10px; 
+		align-items: center; 
+	
+	}
+
 
 /******************************************************************/
 .clear {
@@ -243,10 +254,12 @@ ol.list-2 {
 	background-color: radi ;}
 .top-3 {
 	padding-top:28px;
-	background: radial-gradient(circle, #a18e4f, #d3c8bd, #ddd4d4);
+	background:#f3dada;
 }
 .top-4 {
-	margin-top:35px;
+	padding-top:28px;
+	text-align: center;
+	color:#072905
 }
 .top-5 {
 	margin-top:12px;
@@ -283,9 +296,12 @@ ol.list-2 {
 	text-align: center;
 }
 .p4 {
-	padding-bottom:7px;
-	color: black;
-}
+	padding-bottom: 15px;
+	color: rgb(0, 0, 0);
+	background: linear-gradient(to bottom right, rgba(96, 95, 95, 0.5), rgba(25, 156, 25, 0.5), rgba(183, 183, 217, 0.5)); 
+  }
+  
+  
 /*********************************header*************************************/
 header {
 	width:960px;
@@ -342,12 +358,17 @@ ul.menu li:first-child a {
 ul.menu li:hover, ul.menu li.current {
 	background:#839e9c;
 	background-color: rgb(112, 97, 97);
+	
 
 }
 ul.menu li a:hover, ul.menu li.current a {
-	color:#fff;
-	background-color: rgb(124, 2, 2);
+	color:#ffffff;
+	background-color: rgb(198, 227, 240)
 
+}
+.menu li.current a img {
+    width: 100px; 
+    height: 80px; 
 }
 .slider-banner {
 	position:absolute;
@@ -367,7 +388,9 @@ ul.menu li a:hover, ul.menu li.current a {
 	background-color: #868585;
 }
 .img-border {
-	border:#000000 1px solid;
+	border:#e6a9a9 1px solid;
+	color: #0b0a40;
+	background: linear-gradient(to bottom right, rgba(96, 95, 95, 0.5), rgba(25, 156, 25, 0.5), rgba(183, 183, 217, 0.5)); 
 }
 .box-1 {
 	overflow:hidden;
@@ -519,7 +542,7 @@ ul.menu li a:hover, ul.menu li.current a {
   
 .box-5 div .link-1 {
 	margin-top: 8px;
-	color: blue
+	color: rgb(0, 0, 0)
 }
   
 /****************************footer************************/
@@ -528,25 +551,31 @@ footer {
 	overflow:hidden;
 	margin:0 auto;
 	padding:12px 0px 40px 0;
-	border-top:#d2d9d8 2px solid;
+	border-top:#13ffdc 2px solid;
 	text-align:center;
-	color:#a7a7a7;
+	color:#050000;
+    background: linear-gradient(to bottom, #597ce5, #292929);
+
 }
 footer p {
 	overflow:hidden;
+	
 }
 footer strong {
-	font-size:24px;
-	line-height:30px;
-	color:#b4b4b4;
-	font-weight:normal;
-	font-family: 'Passion One', cursive;
-	display:inline-block;
-	text-transform:uppercase;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: normal;
+    font-family: 'Passion One', cursive;
+    display: inline-block;
+    text-transform: uppercase;
+    background: linear-gradient(to right, rgb(233, 51, 51) 50%, rgb(220, 169, 169) 50%);
 }
+
 footer span {
 	display:inline-block;
 	margin:7px 0 0 5px;
+	background: linear-gradient(to right, rgb(220, 169, 169) 50%, rgb(233, 51, 51) 50%);
+
 }
 /**********************form**********************/
 .map {
@@ -682,7 +711,7 @@ table {
   
   td {
 	padding: 10px;
-	color: rgb(231, 231, 30);
+	color: rgb(255, 255, 255);
 	text-align: center;
 
   }
@@ -703,17 +732,11 @@ table {
 
 }
 
-table {
-	border: #09ff00;
-}
-
-
-
 .box-container{
 	margin-left: 30px;
 }
 
-#sepang , #valencia{
+#sepang , #noticia{
 	text-align: center;
 }
 
@@ -724,3 +747,95 @@ table {
 }
 
 
+#titulo1{
+	width: 250px;
+	height: 150px;
+}
+
+.table-container {
+    text-align: center;
+}
+
+.grupo-a {
+    border-collapse: collapse; 
+    margin: 0 auto; 
+	margin-bottom: 100px;
+}
+
+.grupo-a caption {
+    font-weight: bold;
+}
+
+.grupo-a th, .grupo-a td {
+    border: 2px solid #000000;
+    text-align: center;
+    padding: 8px;
+	color: #000000;
+}
+
+.grupo-a tr:nth-child(even) {
+    background-color: #b4c4e2;
+	vertical-align: middle; 
+}
+
+.grupo-a tr:nth-child(odd) {
+    background-color: #e1f1ec;
+	vertical-align: middle; 
+}
+
+.bandera-img {
+    vertical-align: middle; 
+    margin-right: 5px; /
+}
+.calendario {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.calendario caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.calendario th, .calendario td {
+    border: 1px solid #ffffff; 
+    padding: 8px;
+    text-align: center;
+    color: #270808;
+    vertical-align: middle;
+}
+
+.calendario th {
+    background-color: #000000; 
+    color: rgb(243, 135, 135); 
+}
+
+.calendario tr:nth-child(even) {
+    background-color: #cacbd0; 
+}
+
+.calendario tr:nth-child(odd) {
+    background-color: #9b9cd8; 
+}
+
+.calendario tr.dia-header {
+    background-color: #6b48e8; 
+}
+
+.calendario tr:hover {
+    background-color: #e46767; 
+}
+
+.calendario img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.container_24.top-1 > div {
+    margin-bottom: 80px; 
+}
+
+.grid_10.prefix_7.suffix_7.top-2 {
+    margin-top: 80px;
+    text-align: center;
+}
