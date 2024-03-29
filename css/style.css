@@ -108,11 +108,10 @@ h2.h2-1 {
 h2.h2-2 {
 	line-height:34px;
 	display:inline-block;
-	border-bottom:#d2d9d8 2px solid;
-	border-top:#d2d9d8 2px solid;
+	border-bottom:#000807 2px solid;
+	border-top:#000000 2px solid;
 	text-align:center;
-		padding-top:28px;
-
+	margin-bottom: 20px;
 }
 h2.h2-3 {
 	line-height:34px;
@@ -185,6 +184,7 @@ ol.list-2 {
 	
 	}
 
+
 	.escudo-img {
 
 		width:60px; 
@@ -213,6 +213,8 @@ ol.list-2 {
 }
 .extra-wrap {
 	overflow:hidden;
+	font-size: 12px;
+	color: #050000;
 }
 .fleft {
 	float:left;
@@ -245,13 +247,12 @@ ol.list-2 {
 }
 .top-1 {
 	padding-top:25px;
-	background: radial-gradient(circle, #726d58, #d6d6cc, #e0caca);
+	background-color: #a9a3ec80;
 
 
 
 }
-#top-2 {
-	background-color: radi ;}
+
 .top-3 {
 	padding-top:28px;
 	background:#f3dada;
@@ -412,30 +413,30 @@ ul.menu li a:hover, ul.menu li.current a {
 .box-1 div .link-1 {
 	margin-top:8px;
 }
-.testimonials {
-	overflow:hidden;
-}
-.testimonials>span {
+
+
+  
+  .testimonials-block p {
+	margin-bottom: 10px;
+  }
+  
+.testimonials>strong {
 	display:block;
-	float:right;
-	color:#85a09d;
-	width:81px;
-	margin-top:6px;
-}
-.testimonials>span>strong {
-	display:block;
-	font-size:14px;
-	line-height:18px;
+	font-size:12px;
+	line-height:15px;
 	font-style:italic;
+	color: #2c7e29;
+	font-weight: bold;
 }
 .testimonials-block {
-	background:#e5e9e8;
-	position:relative;
+	background:#bbebdf;
 	font-size:12px;
 	line-height:18px;
-	color:#6a4c31;
+	color:#ab5b15;
 	font-weight:bold;
 	padding:12px 24px 15px 18px;
+
+
 }
 .corner {
 	position:absolute;
@@ -447,19 +448,20 @@ ul.menu li a:hover, ul.menu li.current a {
 }
 .box-2 {
 	overflow:hidden;
+
 }
 .box-2 p {
 	padding-bottom:12px;
 }
 .box-2 strong {
 	font-size:14px;
-	color:#85a09d;
+	color:#7b084d;
 }
 .box-2 span {
 	font-size:11px;
 	line-height:16px;
 	text-transform:uppercase;
-	color:#85a09d;
+	color:#5c34ca;
 }
 .box-3 {
 	overflow:hidden;
@@ -477,22 +479,23 @@ ul.menu li a:hover, ul.menu li.current a {
 	float:left;
 	margin:0px 10px 0 0;
 	text-align:center;
-	font-family: 'Open Sans', sans-serif;
-	color:#fff;
+	color:#000000;
 	font-size:24px;
 	line-height:30px;
 	font-weight:normal;
 	padding-top:10px;
 }
 .box-3-1>strong {
-	background:url(../images/circle-1.png) 0 0 no-repeat;
+	background:url(../images/citculoitalia.png) 0 0 no-repeat;
+
 }
 .box-3-2>strong {
-	background:url(../images/circle-2.png) 0 0 no-repeat;
+	background:url(../images/circuloespana.png) 0 0 no-repeat;
+	color: #000000;
 }
 .box-3-3>strong {
-	background:url(../images/circle-3.png) 0 0 no-repeat;
-	color:#85a09d !important;
+	background:url(../images/circulofrancia.png) 0 0 no-repeat;
+	color:#000000 !important;
 }
 .box-3>div>strong>span {
 	display:block;
@@ -504,16 +507,16 @@ ul.menu li a:hover, ul.menu li.current a {
 	display:inline-block;
 	font-size:11px;
 	line-height:16px;
-	color:#6a4c31;
+	color:#47301c;
 	text-transform:uppercase;
 	font-weight:bold;
 	padding:3px 0 16px 0;
 }
 .box-3-2 div.extra-wrap>span {
-	color:#85a09d;
+	color:#276b63;
 }
 .box-3-3 div.extra-wrap>span {
-	color:#c1d1cf;
+	color:#1f9789;
 }
 .box-3 div.extra-wrap>.link-1 {
 	margin-top:7px;
@@ -701,20 +704,9 @@ dl.adr dd span {
 	text-align: center;
 }
 
-table {
-	border-collapse: separate;
-	border-spacing: 10px;
-	background-image: linear-gradient(to right , #000000, rgb(224, 142, 142)); 
-	margin: 0 auto ;
 
-  }
   
-  td {
-	padding: 10px;
-	color: rgb(255, 255, 255);
-	text-align: center;
 
-  }
   th {
 	padding: 10px;
 	color: #ffffff;
@@ -839,3 +831,92 @@ table {
     margin-top: 80px;
     text-align: center;
 }
+.grupo {
+	border-collapse: separate;
+	border-spacing: 0;
+	background-image: url(../images/fondoeuro.jpg);
+	background-size:cover;
+	opacity: 0.8;
+	border-radius: 20px;
+	overflow: hidden; 
+	margin-bottom: 20px; 
+	display: inline-block; 
+	vertical-align: top; 
+	width: calc(33.33% - 23px); 
+	margin-right: 20px; 
+	color: #000000;
+	font-family: "Arial Black", Arial, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	border: 1px solid #000000; 
+}
+.grupo td {
+    padding: 15px;
+    border-bottom: 1px solid #080000; 
+	vertical-align: middle;
+}
+.grupo h2 {
+    background: radial-gradient(circle, #ae1717, #5c5cef);
+    -webkit-background-clip: text; 
+    color: transparent; 
+}
+
+  
+.octavos {
+	display: inline-block; 
+
+	border-spacing: 0;
+	background-color: whitesmoke;
+	opacity: 0.8;
+	border-radius: 20px;
+	overflow: hidden; 
+	margin-bottom: 20px; 
+	vertical-align: top; 
+	margin-right: 20px; 
+	color: #000000;
+	font-family: "Arial Black", Arial, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	border: 1px solid #e01a1a; 
+}
+.octavos td {
+	padding: 20px;
+	padding-top: 15px;
+	border-bottom: 1px solid #080000; 
+	vertical-align: middle;
+}
+  
+.imagen-tabla {
+	width: 170px;
+	height: 130px;
+}
+  
+.octavos p {
+	color: blue;
+	font-size: 15px;
+  }
+
+  .tarjeta {
+	width: 30px;
+  }
+  .maximos-goleadores {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	background-color: #cfd5e6;
+  }
+  
+  .maximos-goleadores li {
+	margin-bottom: 10px;
+	font-size: 23px;
+	line-height: 1.5;
+  }
+  
+  .jugador {
+	font-weight: bold;
+  }
+  
+  .goles {
+	color: #b31010; 
+  }
+  
