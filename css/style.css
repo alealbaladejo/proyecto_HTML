@@ -26,8 +26,13 @@ article, aside, audio, canvas, command, datalist, details, embed, figcaption, fi
 li:hover {
 		background-color: #e46767; 
 	}
-#comentario{
-	color:#000000
+
+.current{
+	color: #000000;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 1px;
+	
 }
 
 .gender-options label {
@@ -327,49 +332,62 @@ h1 a {
 
 
 ul.menu {
-	margin:0px 0px 0px 102px;
-	display:inline-block;
-	background-color: rgb(112, 97, 97);
+    margin: 0; 
+    padding: 20px;
+    list-style: none;
+    display: flex; 
+    justify-content: center; 
+    background-image: url('../images/estadio.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+	border-bottom: 10px solid #000; 
+    height: 200px; 
 }
+
 ul.menu li {
-	float:left;
-	display:block;
-	width:150px;
-	text-align:center;
-	text-transform:uppercase;
-	background-color: rgb(112, 97, 97);
-	
+    float: left;
+    position: relative;
+    width: 140px;
+    height: 200px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #ced7ee74;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-ul.menu li a {
-	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-	font-size:10px;
-	line-height:17px;
-	color:#86a5a3;
-	display:block;
-	border-left:#c2dcdb 1px solid;
-	padding:16px 0 21px 0;
-	background-color: rgb(0, 0, 0);
 
+ul.menu li a{
+	color: #000000;
+	vertical-align: middle;
 }
-ul.menu li:first-child a {
-	border-left:transparent 1px solid;
-
-
+ul.menu li:hover {
+    background-color: rgb(10, 1, 1); 
+	color: #ffffff;
+	border-bottom: 1px solid #000; 
 }
-ul.menu li:hover, ul.menu li.current {
-	background:#839e9c;
-	background-color: rgb(112, 97, 97);
-	
-
+ul.submenu {
+    display: none;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    padding: 0;
+	border-bottom: 1px solid #000; 
 }
-ul.menu li a:hover, ul.menu li.current a {
-	color:#ffffff;
-	background-color: rgb(198, 227, 240)
-
+ul.menu li:hover .submenu {
+    display: block;
 }
-.menu li.current a img {
-    width: 100px; 
-    height: 80px; 
+ul.submenu li {
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul.submenu li:hover {
+    background-color: rgb(125, 14, 14); 
 }
 .slider-banner {
 	position:absolute;
