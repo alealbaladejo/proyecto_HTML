@@ -77,25 +77,41 @@ jQuery(document).ready(function() {
           <dd><span class="upper">Teléfono:</span><strong>+41 848 002 727</strong></dd>
           <dd><span class="upper" ">WEB:</span><a href="http://uefa.com/" class="link-1" target="_blank">uefa.com</a></dd>
         </dl>
+        <img id="gifespana" src="images/21367-espaa-europa-ftbol-equipos-nacionales-ligas-federacin-deportes.gif" alt="españa" >
       </div>
       <div class="grid_16 prefix_1">
         <h2 class="h2-4">Regístrate</h2>
-        <form action="http://172.22.200.240/resultado.php" id="form" method="post" >
-          
+        <form action="http://172.22.200.240/resultado.php" id="form" method="post">
           <fieldset>
-            <label><strong>Nombre:</strong>
-                <input type="text" id="texto" name="nombre" value="" >
-            </label>
+              <legend><strong>Información Personal</strong></legend>
+      
+              <div class="form-group">
+                  <label for="nombre"><strong>Nombre:</strong></label>
+                  <input type="text" id="nombre" name="nombre" required>
+              </div>
             <label><strong>Apellidos:</strong>
                 <input type="text" name="apellidos" value="">
             </label>
         
-            <label>
-              <strong>Genero:</strong>
-              <input type="radio" name="hombre" id="hombre"> <span>Hombre</span>
-              <input type="radio" name="mujer" id="mujer"> <span>Mujer</span>
-              <input type="radio" name="prefiero no decirlo" id="nada"> <span>Prefiero no decirlo</span>
-            </label>
+            <div class="form-group">
+              <label><strong>ZONA:</strong></label><br>
+              <label for="sur">
+                  <input type="radio" name="zona" id="sur"> Gol Sur
+              </label><br>
+              <label for="norte">
+                  <input type="radio" name="zona" id="norte"> Gol Norte
+              </label><br>
+              <label for="fondo">
+                  <input type="radio" name="zona" id="fondo"> Fondo
+              </label><br>
+              <label for="preferencia">
+                  <input type="radio" name="zona" id="preferencia"> Preferencia
+              </label><br>
+              <label for="vip">
+                  <input type="radio" name="zona" id="vip"> Zona VIP
+              </label>
+          </div>
+          
 
             <div><label><strong>Email:</strong>
                 <input type="email" name="email" value="">
@@ -105,7 +121,7 @@ jQuery(document).ready(function() {
               
             </label>
             <label><div>
-            <select name="circuito" id="circuito">
+            <select name="entradas" id="entradas">
               <option value="">Elige un partido</option>
               <optgroup label="Múnich" id="munich">
                 <option value="partido1">14/06 Alemania - Escocia 21:00</option>
@@ -131,7 +147,7 @@ jQuery(document).ready(function() {
                 <option value="partido7">14/07 GRAN FINAL (Partido por decidir) 21:00</option>
 
               </optgroup>
-              <optgroup label="Dortmund" id="dormund">
+              <optgroup label="Dortmund" id="dortmund">
                 <option value="partido1">15/06 Italia - Albania 21:00</option>
                 <option value="partido2">18/06 Turquía - Georgia 18:00</option>
                 <option value="partido3">22/06 Turquía - Portugal 18:00</option>
@@ -186,14 +202,21 @@ jQuery(document).ready(function() {
               </optgroup>
 
 
-
             </select>
           </div>
-          </label>
-            <label><input type="checkbox" name="contactoxemail" id="info">Selecciona para poder contactar contigo a través de correo</label>
-            <label><input type="checkbox" name="contactoxtlf" id="info">Selecciona para poder contactar contigo a través de teléfono</label>
-
-            <div class="btns"><input type="submit" value="Enviar"></div>
+          <div class="cantidad-wrapper">
+            <span class="cantidad-label">Entradas (Máx. 4)</span>
+            <input type="number" id="cantidad" name="cantidad" min="1" max="4" required>
+        </div>
+        
+        <div class="form-group">
+            <label><input type="checkbox" name="contactoxemail" id="info">Deseo ser contactado por correo electrónico</label>
+        </div>
+        
+        <div class="form-group">
+            <label><input type="checkbox" name="contactoxtlf" id="info">Deseo ser contactado por teléfono</label>
+        </div>
+        <div class="btns"><input type="submit" value="Enviar"></div>
           </fieldset>
         
         </form>
@@ -203,7 +226,7 @@ jQuery(document).ready(function() {
   </section>
   <!--==============================footer=================================-->
   <footer>
-    <h3>SÍGUENOS EN </h3>
+    <h3>SÍGUENOS EN REDES SOCIALES </h3>
     <a href="https://twitter.com/UEFAcom_es" target="_blank">
       <span>  </span>
       <img src="images/twitter.png" alt="Twitter">
@@ -215,10 +238,37 @@ jQuery(document).ready(function() {
       <span>  </span>
       <img src="images/facebook.png" alt="Facebook">
   </a>
+  <div class="patrocinadores">
+  <h4>NUESTROS PATROCINADORES</h4>
+  <img src="images/Adidas.webp" alt="adidas">
+  <img src="images/alipay_alipayplus.avif" alt="Alipay">
+  <img src="images/Atos.webp" alt="Atos">
+  <img src="images/betano.avif" alt="betano">
+  <img src="images/booking_euro24.avif" alt="booking">
+  <img src="images/byd.webp" alt="byd">
+  <img src="images/cocacolazero.avif" alt="cocacolazero">
+  <img src="images/Hisense_green.avif" alt="hisense">
+  <img src="images/Lidl.avif" alt="lidl">
+  <img src="images/Strauss.webp" alt="Strauss">
+  <img src="images/visitQatar.avif" alt="qatar">
+  <img src="images/Vivo.avif" alt="vivo">
+</div>
+
+<div class="navegacion-rapida">
+  <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#calendario">Calendario</a></li>
+      <li><a href="#clasificacion">Clasificación</a></li>
+      <li><a href="#noticias">Noticias</a></li>
+  </ul>
+</div>
+
     <p class="eurocopa"><strong>EUROCOPA</strong> <span>© 2024</span></p>
     Diseñado por Alejandro <a target="_blank" href="http://www.templatemonster.com/" class="link">TemplateMonster.com</a> 
 
+    
   </footer>
+
 </div>
 </body>
 </html>

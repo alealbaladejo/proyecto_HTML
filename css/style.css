@@ -27,6 +27,7 @@ li:hover {
 		background-color: #e46767; 
 	}
 
+
 .current{
 	color: #000000;
 	font-size: 20px;
@@ -128,11 +129,13 @@ h2.h2-3 {
 	text-align:left;
 }
 h2.h2-4 {
+
 	line-height:34px;
 	display:block;
-	border-bottom:#d2d9d8 2px solid;
-	border-top:#d2d9d8 2px solid;
-	text-align:left;
+	border-bottom:hsl(0, 0%, 100%) 2px solid;
+	border-top:#ffffff 2px solid;
+	text-align:center;
+	color: blue;
 }
 h3 {
 	font-size:16px;
@@ -616,8 +619,50 @@ footer h3{
 	margin-bottom: 10px;
 }
 
+footer h4{
+	margin-top: 30px;
+	text-align: center;
+	color: rgb(197, 175, 175);
+	margin-bottom: 20px;
+}
+.patrocinadores img {
+    width: 50px;
+    height: 40px;
+    margin-left: 12px; 
+    margin-right: 12px; 
+    margin-bottom: 10px; 
+}
+.navegacion-rapida {
+	margin-top: 20px;
+    background-color: #bdb3b3;
+    padding: 20px;
+    border-radius: 5px;
+}
 
+.navegacion-rapida h4 {
+    margin-top: 0;
+}
 
+.navegacion-rapida ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navegacion-rapida ul li {
+    margin-bottom: 10px;
+}
+
+.navegacion-rapida ul li a {
+    text-decoration: none;
+    color: #2e0606;
+    font-size: 16px;
+}
+
+.navegacion-rapida ul li a:hover {
+    color: #007bff; 
+
+}
 
 
 /**********************form**********************/
@@ -661,116 +706,141 @@ dl.adr dd span {
 #headform {
 	background: rgba(0, 0, 0, 0); 
 }
-
-#munich {
-	background-color: #c527b0;
-	color: #000000;
-}
-#colonia {
-	background-color: #a04bca;
-	color: #4f0606;
-}
-#dormund{
-	background-color: rgb(94, 41, 173);
-	color: rgb(197, 197, 214);
-
-}
-#berlin{
-	background-color: #2e46bc;
-	color: rgb(255, 255, 255);
-}
-
-#hamburgo{
-	background-color: #357de1;
-	color: rgb(4, 0, 0);
-}
-#stuttgart{
-	background-color: #4aedd7;
-	color: rgb(4, 0, 0);
-}
-
-#gelsen{
-	background-color: #81f15f;
-	color: rgb(4, 0, 0);
-}
-#francfort{
-	background-color: #dfca45;
-	color: rgb(4, 0, 0);
-}
-
-#dusseldorf{
-	background-color: #ee8536;
-	color: rgb(4, 0, 0);
-}
-#leipzig{
-	background-color: #e03737;
-	color: rgb(4, 0, 0);
+#gifespana{
+	width: 250px;
+	height: 250px;
+	margin-top: 20px;
+	margin-left: 35px;
+	margin-bottom: 20px;
 }
 #form {
-	margin: 31px 0 0px 0px;
-	width: 500px;
-	text-align: left;
-	color: #000000;
+
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+	background-image: url(../images/estadio2.jpg);
+	background-size:cover;
+    border-radius: 8px;
+    color: #ffffff;
+	
 }
+
+
+#form label strong {
+	margin-top: 5px;
+    display: inline-block;
+    width: 100px;
+	font-size: large;
+    font-weight: bold;
+
+}
+
 
 #form input[type="text"],
 #form input[type="email"],
 #form input[type="password"],
 #form select {
-	background: #b9b8b8;
-	color: #170606;
-	font: 10px;
-	text-align: left;
-	border: #9c9a9a;
-	margin-left: 30px; 
-	width: 350px; 
-	border-radius: 20px;
+    width: calc(100% - 100px);
+    padding: 10px;
+    border: 1px solid #0f0606;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(5px); 
+	color: #ffffff;
+	font-size: large;
 }
-select{
-	border-radius: 10px;
+#munich {
+    background-color: rgba(237, 72, 72, 0.5); 
+    color: #000; 
+    border: 1px solid #0f0606; 
+}
+#colonia {
+	background-color: rgba(237, 168, 72, 0.566); 
+    color: #000; 
+    border: 1px solid #0f0606; 
+}
+#berlin {
+	background-color: rgba(237, 231, 72, 0.566); 
+    color: #000; 
+    border: 1px solid #0f0606; 
+}
+#dortmund {
+	background-color: rgba(79, 220, 157, 0.566); 
+    color: #000; 
+    border: 1px solid #0f0606; 
+}
+#hamburgo {
+	background-color: rgba(9, 78, 19, 0.566); 
+    color: #000; 
+    border: 1px solid #0f0606; 
 }
 
-#form label strong {
-	display: inline-block;
-	vertical-align: text-bottom; 
-	margin-bottom: 0px; 
+#stuttgart {
+	background-color: rgba(72, 116, 237, 0.566); 
+    color: #000; 
+    border: 1px solid #0f0606; 
+}
+#gelsen {
+	background-color: rgba(81, 42, 164, 0.566); 
+    color: #000; 
+    border: 1px solid #0f0606; 
+}
+#francfort {
+	background-color: rgba(162, 92, 232, 0.566); 
+    color: #000; 
+    border: 1px solid #0f0606; 
+}
+#dusseldorf {
+	background-color: rgba(234, 72, 237, 0.566); 
+    color: #000; 
+    border: 1px solid #0f0606; 
+}
+#leipzig {
+	background-color: rgba(238, 55, 107, 0.566); 
+    color: #000; 
+    border: 1px solid #0f0606; 
+}
+#form input[type="radio"] {
+    color: #000;
 }
 
-#form label {
-	position: relative;
-	display: block;
-	min-height: 20px;
-	overflow: hidden;
-	margin-top: 15px;
-}
-.btns {
+
+#form input[type="submit"] {
 	margin-top: 10px;
-	margin-left: 50%;
-	border: 1px solid #000000; 
-    display: inline-block; 
+    background-color: #031004;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+	font-size: large;
 }
 
 
-input[type="submit"] {
-	
-    background-color: #639c7f; 
-    border: none; 
-    cursor: pointer; 
-    font-size: 18px; 
+.cantidad-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
 }
-.btns a {
-	display:inline-block;
-	margin-left:31px;
+
+.cantidad-label {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
 }
-#form label strong {
-	float:left;
-	display:block;
-	padding-top:8px;
-	line-height:15px;
-	width:70px;
-	color:#5f0808;
-	white-space:nowrap;
+
+#cantidad {
+    width: 50px;
+    padding: 8px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
+
 
 
 
@@ -783,13 +853,7 @@ input[type="submit"] {
 
 .box-container{
 	margin-left: 30px;
-}
-
-#sepang , #noticia{
-	text-align: center;
-}
-
-#pag1 {
+}#pag1 {
     max-width: 50%;
     height: 200px;
     transform: scaleX(-1);
