@@ -28,7 +28,7 @@
   <link rel="stylesheet" href="css/style.css">
 
 
-
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
 </head>
 
 <body>
@@ -49,36 +49,33 @@
 
       <div class="container">
         <div class="d-flex align-items-center">
-          <div class="site-logo">
-            <a href="index.html">
-              <img src="images/logo.png" alt="Logo">
-            </a>
-          </div>
-          <div class="ml-auto">
-            <nav class="site-navigation position-relative text-right" role="navigation">
-              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li><a href="index.html" class="nav-link">Home</a></li>
-                <li><a href="matches.html" class="nav-link">Matches</a></li>
-                <li class="active"><a href="players.html" class="nav-link">Players</a></li>
-                <li><a href="blog.html" class="nav-link">Blog</a></li>
-                <li><a href="contact.html" class="nav-link">Contact</a></li>
-              </ul>
-            </nav>
-
-            <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right text-white"><span
-                class="icon-menu h3 text-white"></span></a>
-          </div>
+            <div class="ml-auto">
+                <nav class="site-navigation position-relative text-right" role="navigation">
+                    <ul class="site-menu main-menu">
+                        <li class="nav-item"><a href="#" class="nav-link">Menú</a>
+                            <ul class="sub-menu">
+                                <li><a href="index.html" class="nav-link">Home</a></li>
+                                <li><a href="matches.html" class="nav-link">Matches</a></li>
+                                <li><a href="players.html" class="nav-link">Players</a></li>
+                                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-      </div>
+    </div>
+    
 
     </header>
 
-    <div class="hero overlay" style="background-image: url('images/bg_3.jpg');">
+    <div class="hero overlay" style="background-image: url('images/fondojugadores.jpg');">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-5 mx-auto text-center">
-            <h1 class="text-white">Players</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, molestias repudiandae pariatur.</p>
+            <h1 class="text-white">Jugadores</h1>
+            <p>En esta página encontrarás información sobre los jugadores de nuestra selección.</p>
           </div>
         </div>
       </div>
@@ -90,7 +87,7 @@
       <div class="container">
         <div class="row">
           <div class="col-6 title-section">
-            <h2 class="heading">Star Players / Videos</h2>
+            <h2 id="jugadores" class="heading">Última convocatoria</h2>
           </div>
           <div class="col-6 text-right">
             <div class="custom-nav">
@@ -105,207 +102,459 @@
         <div class="owl-4-slider owl-carousel">
           <div class="item">
             <div class="video-media">
-              <img src="images/img_1.jpg" alt="Image" class="img-fluid">
-              <a href="https://vimeo.com/139714818" class="d-flex play-button align-items-center" data-fancybox>
-                <span class="icon mr-3">
-                  <span class="icon-play"></span>
-                </span>
+              <img src="images/remiro_390x520_3.png" alt="Image" class="img-fluid">
                 <div class="caption">
-                  <span class="meta">#10 / Forward</span>
-                  <h3 class="m-0">Phillip Hobbs</h3>
+                  <h3 class="m-0">Álex Remiro</h3>
+                  <h5>Portero</5>
+                  <h6>Real Sociedad</h6>
                 </div>
-              </a>
+              
             </div>
           </div>
           <div class="item">
             <div class="video-media">
-              <img src="images/img_2.jpg" alt="Image" class="img-fluid">
-              <a href="https://vimeo.com/139714818" class="d-flex play-button align-items-center" data-fancybox>
-                <span class="icon mr-3">
-                  <span class="icon-play"></span>
-                </span>
+              <img src="images/unai_simon_390x520_0.png" alt="Image" class="img-fluid">
                 <div class="caption">
-                  <span class="meta">#7 / Forward</span>
-                  <h3 class="m-0">Garry Norris</h3>
+                  <h3 class="m-0">Unai Simón</h3>
+                  <h5>Portero</h5>
+                  <h6>Athletic Club</h6>
                 </div>
-              </a>
-            </div>
-          </div>
-          <div class="item">
-            <div class="video-media">
-              <img src="images/img_3.jpg" alt="Image" class="img-fluid">
-              <a href="https://vimeo.com/139714818" class="d-flex play-button align-items-center" data-fancybox>
-                <span class="icon mr-3">
-                  <span class="icon-play"></span>
-                </span>
-                <div class="caption">
-                  <span class="meta">#4 / Forward</span>
-                  <h3 class="m-0">Romolu Harper</h3>
-                </div>
-              </a>
             </div>
           </div>
 
           <div class="item">
             <div class="video-media">
-              <img src="images/img_1.jpg" alt="Image" class="img-fluid">
-              <a href="https://vimeo.com/139714818" class="d-flex play-button align-items-center" data-fancybox>
-                <span class="icon mr-3">
-                  <span class="icon-play"></span>
-                </span>
+              <img src="images/david_raya_390x520_0.png" alt="Image" class="img-fluid">
                 <div class="caption">
-                  <span class="meta">#4 / Forward</span>
-                  <h3 class="m-0">Phillip Hobbs</h3>
+                  <h3 class="m-0">David Raya </h3>
+                  <h5>Portero</h5>
+                  <h6>Arsenal FC</h6>
                 </div>
-              </a>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="video-media">
+              <img src="images/jesus_navas_390x520.png" alt="Image" class="img-fluid">
+                <div class="caption">
+                  <h3 class="m-0">Jesús Navas</h3>
+                  <h5>Lateral Derecho</h5>
+                  <h6>Sevilla FC</h6>
+                </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="video-media">
+              <img src="images/vivian_390x520_0.png" alt="Image" class="img-fluid">
+                <div class="caption">
+                  <h3 class="m-0">Dani Vivian</h3>
+                  <h5>Defensa Central</h5>
+                  <h6>Athletic Club</h6>
+                </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="video-media">
+              <img src="images/cucurella_390x520_0.png" alt="Image" class="img-fluid">
+                <div class="caption">
+                  <h3 class="m-0">Marc Cucurella</h3>
+                  <h5>Lateral Izquierdo</h5>
+                  <h6>Chelsea FC</h6>
+                </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="video-media">
+              <img src="images/le_normand_390x520_0.png" alt="Image" class="img-fluid">
+                <div class="caption">
+                  <h3 class="m-0">Le Normand</h3>
+                  <h5>Defensa Central</h5>
+                  <h6>Real Sociedad</h6>
+                </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="video-media">
+              <img src="images/pau_cubarsi_390x520_0.png" alt="Image" class="img-fluid">
+                <div class="caption">
+                  <h3 class="m-0">Pau Cubarsí</h3>
+                  <h5>Defensa Central</h5>
+                  <h6>FC Barcelona</h6>
+                </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="video-media">
+              <img src="images/carvajal_390x520_0.png" alt="Image" class="img-fluid">
+                <div class="caption">
+                  <h3 class="m-0">Dani Carvajal</h3>
+                  <h5>Lateral Derecho</h5>
+                  <h6>Real Madrid</h6>
+                </div>
+            </div>
+          </div>
+          
+          <div class="item">
+            <div class="video-media">
+              <img src="images/laporte_390x520_1.png" alt="Image" class="img-fluid">
+                <div class="caption">
+                  <h3 class="m-0">Laporte</h3>
+                  <h5>Defensa Central</h5>
+                  <h6>Al-Nassr FC</h6>
+                </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="video-media">
+              <img src="images/alex_grimaldo_390x520.png" alt="Image" class="img-fluid">
+                <div class="caption">
+                  <h3 class="m-0">Álex Grimaldo</h3>
+                  <h5>Lateral Izquierdo</h5>
+                  <h6>Bayer 04 Leverkusen</h6>
+                </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="video-media">
+              <img src="images/pedro_porro_390x520_2.png" alt="Image" class="img-fluid">
+                <div class="caption">
+                  <h3 class="m-0">Pedro Porro</h3>
+                  <h5>Lateral Derecho</h5>
+                  <h6>Tottenham Hotspur FC</h6>
+                </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="video-media">
+              <img src="images/fabian_ruiz_390x520_2.png" alt="Image" class="img-fluid">
+                <div class="caption">
+                  <h3 class="m-0">Fabián Ruiz</h3>
+                  <h5>Mediocentro</h5>
+                  <h6>PSG</h6>
+                </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="video-media">
+              <img src="images/sancet_390x520_0.png" alt="Image" class="img-fluid">
+                <div class="caption">
+                  <h3 class="m-0">Oihan Sancet</h3>
+                  <h5>Athletic Club</h5>
+                  <h6>Mediocentro</h6>
+                </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="video-media">
+              <img src="images/mikel_merino_390x520_2.png" alt="Image" class="img-fluid">
+                <div class="caption">
+                  <h3 class="m-0">Miker Merino</h3>
+                  <h5>Real Sociedad</h5>
+                  <h6>Mediocentro</h6>
+                </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="video-media">
+              <img src="images/rodrigo_hernandez_390x520_0.png" alt="Image" class="img-fluid">
+                <div class="caption">
+                  <h3 class="m-0">Rodri</h3>
+                  <h5>Manchester City</h5>
+                  <h6>Mediocentro</h6>
+                </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="video-media">
+              <img src="images/alex_baena_390x520_2.png" alt="Image" class="img-fluid">
+                <div class="caption">
+                  <h3 class="m-0">Álex Baena</h3>
+                  <h5>VIllareal</h5>
+                  <h6>Mediocentro</h6>
+                </div>
             </div>
           </div>
           <div class="item">
             <div class="video-media">
-              <img src="images/img_2.jpg" alt="Image" class="img-fluid">
-              <a href="https://vimeo.com/139714818" class="d-flex play-button align-items-center" data-fancybox>
-                <span class="icon mr-3">
-                  <span class="icon-play"></span>
-                </span>
+              <img src="images/zubimendi_390x520_0.png" alt="Image" class="img-fluid">
                 <div class="caption">
-                  <span class="meta">#1 / GoalKeeper</span>
-                  <h3 class="m-0">Garry Norris</h3>
+                  <h3 class="m-0">Zubimendi</h3>
+                  <h5>Real Sociedad</h5>
+                  <h6>Mediocentro</h6>
                 </div>
-              </a>
             </div>
           </div>
+
           <div class="item">
             <div class="video-media">
-              <img src="images/img_3.jpg" alt="Image" class="img-fluid">
-              <a href="https://vimeo.com/139714818" class="d-flex play-button align-items-center" data-fancybox>
-                <span class="icon mr-3">
-                  <span class="icon-play"></span>
-                </span>
+              <img src="images/sancet_390x520_0.png" alt="Image" class="img-fluid">
                 <div class="caption">
-                  <span class="meta">#8 / Forward</span>
-                  <h3 class="m-0">Romolu Harper</h3>
+                  <h3 class="m-0">Oyarzábal</h3>
+                  <h5>Real Sociedad</h5>
+                  <h6>Delantero</h6>
                 </div>
-              </a>
             </div>
           </div>
+
+          <div class="item">
+            <div class="video-media">
+              <img src="images/gerard_moreno_390x520_0.png" alt="Image" class="img-fluid">
+                <div class="caption">
+                  <h3 class="m-0">Gerard Moreno</h3>
+                  <h5>Villareal</h5>
+                  <h6>Delantero</h6>
+                </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="video-media">
+              <img src="images/nico_williams_390x520_0.png" alt="Image" class="img-fluid">
+                <div class="caption">
+                  <h3 class="m-0">Nico Williams</h3>
+                  <h5>Athletic Club</h5>
+                  <h6>Delantero</h6>
+                </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="video-media">
+              <img src="images/pablo_sarabia_390x520_0.png" alt="Image" class="img-fluid">
+                <div class="caption">
+                  <h3 class="m-0">Pablo Sarabia</h3>
+                  <h5>Wolverhampton</h5>
+                  <h6>Delantero</h6>
+                </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="video-media">
+              <img src="images/dani_olmo_390x520_2.png" alt="Image" class="img-fluid">
+                <div class="caption">
+                  <h3 class="m-0">Dani Olmo</h3>
+                  <h5>RB Leipzig</h5>
+                  <h6>Delantero</h6>
+                </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="video-media">
+              <img src="images/lamine_yamal_390x520_1.png" alt="Image" class="img-fluid">
+                <div class="caption">
+                  <h3 class="m-0">Lamine Yamal</h3>
+                  <h5>FC Barcelona</h5>
+                  <h6>Delantero</h6>
+                </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="video-media">
+              <img src="images/morata_390x520_0.png" alt="Image" class="img-fluid">
+                <div class="caption">
+                  <h3 class="m-0">Álvaro Morata</h3>
+                  <h5>Atlético de Madrid</h5>
+                  <h6>Delantero</h6>
+                </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="video-media">
+              <img src="images/joselu_390x520_0.png" alt="Image" class="img-fluid">
+                <div class="caption">
+                  <h3 class="m-0">Joselu Matos</h3>
+                  <h5>Real Madrid</h5>
+                  <h6>Delantero</h6>
+                </div>
+            </div>
+          </div>
+
+          
         </div>
 
       </div>
     </div>
 
 
-    
+    <section>
     <div class="container site-section">
       <div class="row">
-        <div class="col-6 title-section">
-          <h2 class="heading">Our Blog</h2>
+        <div class="col-12 title-section">
+          <h1 id="leyendas" class="heading">Leyendas</h1>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-6">
           <div class="custom-media d-flex">
             <div class="img mr-4">
-              <img src="images/img_1.jpg" alt="Image" class="img-fluid">
+              <img src="images/iniesta.png"  height="600px" alt="Andrés Iniesta" class="img-fluid">
             </div>
             <div class="text">
-              <span class="meta">May 20, 2020</span>
-              <h3 class="mb-4"><a href="#">Romolu to stay at Real Nadrid?</a></h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus deserunt saepe tempora dolorem.</p>
-              <p><a href="#">Read more</a></p>
+              <span class="meta">Mayo 20, 2023</span>
+              <h2 class="mb-4"><strong>Andrés Iniesta</strong> : El Maestro del Centro del Campo</h2>
+              <p>Andrés Iniesta, conocido por su elegancia en el juego y su capacidad para controlar el centro del campo, es una leyenda viva del fútbol español. Con su icónico gol en la final de la Copa del Mundo 2010, Iniesta se aseguró un lugar en la historia del deporte. Su visión, técnica y liderazgo lo convierten en uno de los jugadores más respetados de todos los tiempos.</p>
+
             </div>
           </div>
         </div>
         <div class="col-lg-6">
           <div class="custom-media d-flex">
             <div class="img mr-4">
-              <img src="images/img_3.jpg" alt="Image" class="img-fluid">
+              <img src="images/sergioramos.png" alt="Iker Casillas" class="img-fluid">
             </div>
             <div class="text">
-              <span class="meta">May 20, 2020</span>
-              <h3 class="mb-4"><a href="#">Romolu to stay at Real Nadrid?</a></h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus deserunt saepe tempora dolorem.</p>
-              <p><a href="#">Read more</a></p>
+              <span class="meta">Mayo 20, 2023</span>
+              <h2 class="mb-4"><strong>Sergio Ramos</strong> : El Líder de la Defensa Española</h2>
+              <p>Sergio Ramos, reconocido por su agresividad en la defensa y su capacidad para marcar goles decisivos, es una verdadera leyenda del fútbol español. Con su destacada actuación en la Eurocopa 2008, el Mundial 2010 y las Eurocopas 2012 y 2021, Ramos se ha ganado el respeto y la admiración de aficionados de todo el mundo. Su legado perdurará por generaciones, siendo recordado como uno de los mejores defensores de todos los tiempos.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+
+    <div class="container site-section">
+      <div class="row">
+        <div class="col-12 title-section">
+          <h1 class="heading">Leyendas del Banquillo</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="custom-media d-flex">
+            <div >
+              <img src="images/delbosque.jpg" height="500px" width="200px" >
+            </div>
+            <div class="text">
+              <span class="meta">Mayo 20, 2023</span>
+              <h2 class="mb-4"><strong>Vicente del Bosque</strong> : El Arquitecto del Éxito</h2>
+              <p>Vicente del Bosque, célebre por su estilo calmado y su capacidad para construir equipos ganadores, es una leyenda indiscutible del fútbol español. Como entrenador de la selección nacional, condujo a España a la gloria en la Eurocopa 2012 y la Copa del Mundo 2010, asegurando un lugar en la historia del deporte. Su enfoque táctico y su habilidad para gestionar talento lo convierten en uno de los entrenadores más respetados de todos los tiempos.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="custom-media d-flex">
+            <div>
+              <img src="images/luisaragones.jpg" height="500px" width="200px" alt="Luis Aragonés" >
+            </div>
+            <div class="text">
+              <span class="meta">Mayo 20, 2023</span>
+              <h2 class="mb-4"><strong>Luis Aragonés</strong> :El Sabio de Hortaleza</h2>
+              <p>Luis Aragonés, conocido por su pasión y su capacidad para inspirar a sus jugadores, es una figura icónica en la historia del fútbol español. Como entrenador de la selección, guió a España hacia la gloria en la Eurocopa 2008, marcando el inicio de una era dorada para el fútbol español. Su legado perdurará como un faro de inspiración para futuras generaciones de entrenadores y jugadores.</p>
+              <p><a href="#">Leer más</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container site-section">
+      <div class="row">
+        <div class="col-12 title-section">
+          <h1 id="titulos" class="heading">Títulos Emblemáticos</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="custom-media d-flex">
+            <div >
+              <img src="images/mundial.png" height="500px" width="200px" alt="Trophy" >
+            </div>
+            <div class="text">
+              <span class="meta">Julio 11, 2010</span>
+              <h2 class="mb-4">Copa del Mundo 2010: Gloria en Sudáfrica</h2>
+              <p>La victoria de la selección española en la Copa del Mundo de la FIFA 2010 en Sudáfrica marcó un hito histórico para el fútbol español. Bajo el liderazgo de Vicente del Bosque, el equipo conquistó el primer título mundial de su historia, llevando alegría y orgullo a todo el país. Esta memorable victoria sigue siendo un momento inolvidable para los aficionados españoles y un símbolo de grandeza en el deporte.</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="custom-media d-flex">
+            <div >
+              <img src="images/eurocopa.png" height="500px" width="200px" alt="Trophy" >
+            </div>
+            <div class="text">
+              <span class="meta">Julio 1, 2012</span>
+              <h2 class="mb-4">Eurocopa 2012: Dominio en Europa</h2>
+              <p>La selección española de fútbol demostró su supremacía en el continente europeo al conquistar la Eurocopa 2012 en Ucrania y Polonia. Guiados por el talento de jugadores como Andrés Iniesta, Sergio Ramos y Xavi Hernández, el equipo logró su segundo título consecutivo en el torneo continental, consolidando su posición como una de las potencias futbolísticas mundiales.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    </section>
+    
+
+
 
 
 
     <footer class="footer-section">
       <div class="container">
-        <div class="row">
+        <div class="row justify-content-center">
           <div class="col-lg-3">
-            <div class="widget mb-3">
-              <h3>News</h3>
+            <div class="widget mb-3 text-center">
+              <h3>Patrocinadores</h3>
               <ul class="list-unstyled links">
-                <li><a href="#">All</a></li>
-                <li><a href="#">Club News</a></li>
-                <li><a href="#">Media Center</a></li>
-                <li><a href="#">Video</a></li>
-                <li><a href="#">RSS</a></li>
+                <li><img src="images/Logo_Adidas.png" width="100px" height="60px"></li>
+                <li><img src="images/seat-logo.png" width="100px" height="80px"></li>
+                <li><img src="images/Renfe_Logo.png" width="100px" height="60px"></li>
               </ul>
             </div>
           </div>
           <div class="col-lg-3">
-            <div class="widget mb-3">
-              <h3>Tickets</h3>
-              <ul class="list-unstyled links">
-                <li><a href="#">Online Ticket</a></li>
-                <li><a href="#">Payment and Prices</a></li>
-                <li><a href="#">Contact &amp; Booking</a></li>
-                <li><a href="#">Tickets</a></li>
-                <li><a href="#">Coupon</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="widget mb-3">
-              <h3>Matches</h3>
-              <ul class="list-unstyled links">
-                <li><a href="#">Standings</a></li>
-                <li><a href="#">World Cup</a></li>
-                <li><a href="#">La Lega</a></li>
-                <li><a href="#">Hyper Cup</a></li>
-                <li><a href="#">World League</a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="col-lg-3">
-            <div class="widget mb-3">
+            <div class="widget mb-3 text-center">
               <h3>Social</h3>
               <ul class="list-unstyled links">
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Youtube</a></li>
+                <li><a href="#twitter-section"><img src="images/twitter.png" height="50px" ></a></li>
+                <li><a href="#facebook-section"><img src="images/facebook.png" height="50px" ></a></li>
+                <li><a href="#instagram-section"><img src="images/instagram.png" height="50px" ></a></li>
+                <li><a href="#youtube-section"><img src="images/YouTubeMusic_Logo.png" height="50px" ></a></li>
               </ul>
             </div>
           </div>
-
         </div>
-
+    
         <div class="row text-center">
           <div class="col-md-12">
-            <div class=" pt-5">
+            <div class="pt-5">
+              <h5>
+                <a href="#top">Inicio</a> | 
+                <a href="#jugadores">Plantilla</a> | 
+                <a href="#leyendas">Leyendas</a> | 
+                <a href="#titulos">Títulos</a> | 
+
+              </h5>
               <p>
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                 Copyright &copy;
                 <script>
                   document.write(new Date().getFullYear());
-                </script> All rights reserved | This template is made with <i class="icon-heart"
+                </script> All rights reserved | Diseñado por Alejandro <i class="icon-keyboard_arrow_left"
                   aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
               </p>
             </div>
           </div>
-
         </div>
       </div>
     </footer>
-
 
 
   </div>
