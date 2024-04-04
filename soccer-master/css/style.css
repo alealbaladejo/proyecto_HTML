@@ -1200,7 +1200,7 @@ h1, h2, h3, h4, h5,
   position: absolute;
   list-style-type: none;
   padding: 0;
-  background-color: rgba(0, 0, 0, 0.7); /* Corregido el valor del color y el nivel de opacidad */
+  background-color: rgba(0, 0, 0, 0.7); 
   box-shadow: 0 2px 5px rgba(235, 224, 224, 0.3);
 }
 
@@ -1213,7 +1213,7 @@ h1, h2, h3, h4, h5,
 }
 
 .nav-item a.nav-link {
-  font-size: 50px !important;
+  font-size: 25px !important;
 }
 section{
   background-color: #000000;
@@ -1311,3 +1311,4 @@ article .product-title{
 }
 table, .text-center, .text, li, form{
   color:wheat;}
+
