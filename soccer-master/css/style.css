@@ -1127,10 +1127,11 @@ h1, h2, h3, h4, h5,
     border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
 
 
-#fem{
+.fem{
   text-align: center;
   font-weight: bold;
   color: gold;
+  margin-bottom: 20px;
 }
 
 #repaso{
@@ -1244,25 +1245,20 @@ article{
   background-color: #e9e9e9;
   color: #000;
 }
-article h1 {
+article h2 {
   color: #ca1e1e;
   font-size: 40px; 
   margin-bottom: 20px; 
   text-align: center;
 }
 
-article h2 {
+article h3 {
   color: #f71111;
   font-size: 20px; 
   margin-bottom: 5px; 
   text-align: left;
 }
-article h3 {
-  color: #f70000; 
-  font-size: 20px;
-  margin-bottom: 5px; 
-  text-align: center;
-}
+
 article p {
   color: #441010; 
   font-size: 17px; 
